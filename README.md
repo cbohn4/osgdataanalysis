@@ -1,6 +1,17 @@
 # OSGDataAnalysis
 Python script for finding OSG/PATh Eligible Jobs using sacct results.
 
+## Usage
+
+**Sacct:**
+`python osg_analysis.py -i <Input File> -u <User Output File> -g <Group Output File>`
+
+**XDMoD:**
+`python osg_analysis.py -i <Input File> -u <User Output File> -g <Group Output File> -x`
+
+## Dependencies:
+Any modern version of the `pandas` and `numpy` python libraries and python 3.6 or later. 
+
 ## Defitionions: 
 There are two catergories of jobs being looked at, jobs that would be good candidates for the Open Science Grid (OSG), and the Partnership to Advanced Throughput Computing (PATh).
 
